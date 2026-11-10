@@ -1,0 +1,21 @@
+outcome,screen,or,lo,hi,p,n
+Current ADHD,1 h,1.1133,0.8484,1.461,0.4388,67501
+Current ADHD,2 h,1.1629,0.9122,1.4827,0.2232,67501
+Current ADHD,3 h,1.3767,1.0701,1.7711,0.0129,67501
+Current ADHD,4+ h,1.75,1.3752,2.227,0.0,67501
+Current anxiety,1 h,1.0183,0.8035,1.2905,0.8809,67466
+Current anxiety,2 h,1.184,0.9542,1.4691,0.1251,67466
+Current anxiety,3 h,1.4224,1.1398,1.775,0.0018,67466
+Current anxiety,4+ h,2.3985,1.9308,2.9793,0.0,67466
+Current depression,1 h,0.6081,0.3598,1.0277,0.0632,67711
+Current depression,2 h,0.9822,0.6002,1.6071,0.9429,67711
+Current depression,3 h,1.3032,0.7923,2.1435,0.297,67711
+Current depression,4+ h,2.3528,1.444,3.8335,0.0006,67711
+Short sleep (below AASM),1 h,1.2851,1.0672,1.5475,0.0081,67918
+Short sleep (below AASM),2 h,1.9357,1.6325,2.2951,0.0,67918
+Short sleep (below AASM),3 h,2.0796,1.7432,2.4808,0.0,67918
+Short sleep (below AASM),4+ h,2.4796,2.0847,2.9493,0.0,67918
+No days of 60-min activity,1 h,0.5521,0.3746,0.8137,0.0027,67748
+No days of 60-min activity,2 h,0.7179,0.5277,0.9765,0.0347,67748
+No days of 60-min activity,3 h,0.8515,0.6285,1.1537,0.2996,67748
+No days of 60-min activity,4+ h,2.1503,1.6058,2.8794,0.0,67748

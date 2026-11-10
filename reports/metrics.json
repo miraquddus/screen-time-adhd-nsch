@@ -1,0 +1,220 @@
+{
+  "n_children_6_17": 69430,
+  "screen_distribution": [
+    {
+      "age_group": "6-11",
+      "screen": "<1 h",
+      "pct": 12.33,
+      "se": 0.42
+    },
+    {
+      "age_group": "6-11",
+      "screen": "1 h",
+      "pct": 18.62,
+      "se": 0.48
+    },
+    {
+      "age_group": "6-11",
+      "screen": "2 h",
+      "pct": 32.28,
+      "se": 0.57
+    },
+    {
+      "age_group": "6-11",
+      "screen": "3 h",
+      "pct": 17.83,
+      "se": 0.46
+    },
+    {
+      "age_group": "6-11",
+      "screen": "4+ h",
+      "pct": 18.94,
+      "se": 0.49
+    },
+    {
+      "age_group": "12-14",
+      "screen": "<1 h",
+      "pct": 5.42,
+      "se": 0.43
+    },
+    {
+      "age_group": "12-14",
+      "screen": "1 h",
+      "pct": 10.2,
+      "se": 0.5
+    },
+    {
+      "age_group": "12-14",
+      "screen": "2 h",
+      "pct": 27.08,
+      "se": 0.7
+    },
+    {
+      "age_group": "12-14",
+      "screen": "3 h",
+      "pct": 23.36,
+      "se": 0.68
+    },
+    {
+      "age_group": "12-14",
+      "screen": "4+ h",
+      "pct": 33.95,
+      "se": 0.75
+    },
+    {
+      "age_group": "15-17",
+      "screen": "<1 h",
+      "pct": 3.34,
+      "se": 0.26
+    },
+    {
+      "age_group": "15-17",
+      "screen": "1 h",
+      "pct": 7.3,
+      "se": 0.38
+    },
+    {
+      "age_group": "15-17",
+      "screen": "2 h",
+      "pct": 21.76,
+      "se": 0.56
+    },
+    {
+      "age_group": "15-17",
+      "screen": "3 h",
+      "pct": 24.02,
+      "se": 0.62
+    },
+    {
+      "age_group": "15-17",
+      "screen": "4+ h",
+      "pct": 43.57,
+      "se": 0.71
+    }
+  ],
+  "pct_4plus_hours_all": [
+    29.2,
+    0.7
+  ],
+  "adhd_prevalence_by_screen": [
+    {
+      "screen": "<1 h",
+      "pct": 10.28,
+      "lo": 8.29,
+      "hi": 12.26,
+      "n": 4736
+    },
+    {
+      "screen": "1 h",
+      "pct": 11.32,
+      "lo": 9.94,
+      "hi": 12.69,
+      "n": 8859
+    },
+    {
+      "screen": "2 h",
+      "pct": 11.97,
+      "lo": 11.11,
+      "hi": 12.83,
+      "n": 19226
+    },
+    {
+      "screen": "3 h",
+      "pct": 13.91,
+      "lo": 12.75,
+      "hi": 15.06,
+      "n": 14878
+    },
+    {
+      "screen": "4+ h",
+      "pct": 17.41,
+      "lo": 16.41,
+      "hi": 18.41,
+      "n": 21054
+    }
+  ],
+  "adhd_prevalence_overall": [
+    13.7,
+    0.5
+  ],
+  "adhd_model_n": 67501,
+  "adjusted_or_4plus_vs_lt1": [
+    {
+      "outcome": "Current ADHD",
+      "screen": "4+ h",
+      "or": 1.75,
+      "lo": 1.375,
+      "hi": 2.227,
+      "p": 0.0,
+      "n": 67501
+    },
+    {
+      "outcome": "Current anxiety",
+      "screen": "4+ h",
+      "or": 2.398,
+      "lo": 1.931,
+      "hi": 2.979,
+      "p": 0.0,
+      "n": 67466
+    },
+    {
+      "outcome": "Current depression",
+      "screen": "4+ h",
+      "or": 2.353,
+      "lo": 1.444,
+      "hi": 3.834,
+      "p": 0.001,
+      "n": 67711
+    },
+    {
+      "outcome": "Short sleep (below AASM)",
+      "screen": "4+ h",
+      "or": 2.48,
+      "lo": 2.085,
+      "hi": 2.949,
+      "p": 0.0,
+      "n": 67918
+    },
+    {
+      "outcome": "No days of 60-min activity",
+      "screen": "4+ h",
+      "or": 2.15,
+      "lo": 1.606,
+      "hi": 2.879,
+      "p": 0.0,
+      "n": 67748
+    }
+  ],
+  "adhd_or_4plus_adjusted_plus_sleep_activity": {
+    "or": 1.561,
+    "lo": 1.22,
+    "hi": 1.997,
+    "n": 67038
+  },
+  "ml_screen4": {
+    "train_n_2024": 36959,
+    "test_n_2025": 32471,
+    "auc_gradient_boosting": 0.722,
+    "auc_logistic": 0.728,
+    "auc_age_only_baseline": 0.653,
+    "permutation_importance": {
+      "Age": 0.082,
+      "Days of physical activity": 0.0339,
+      "Consistent bedtime": 0.0213,
+      "Hard to afford basics": 0.0076,
+      "Weeknight sleep hours": 0.0065,
+      "Organized lessons": 0.0055,
+      "Sports team": 0.0051,
+      "Children in household": 0.0028,
+      "Sex": 0.0025,
+      "Safe neighborhood": 0.0019,
+      "Clubs": 0.0012,
+      "Family structure": 0.0009,
+      "Race/ethnicity": 0.0005,
+      "Parent education": 0.0004,
+      "Sidewalks nearby": 0.0,
+      "Family poverty level": -0.0,
+      "Park nearby": -0.0001
+    }
+  }
+}
